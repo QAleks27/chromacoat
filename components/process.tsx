@@ -3,23 +3,23 @@ import { Reveal } from "@/components/reveal"
 const STEPS = [
   {
     step: "01",
-    title: "Strip & blast",
-    body: "Old coatings, rust, and oil are media-blasted away until we reach clean, bright bare metal ready to bond.",
+    title: "Очищення та піскострум",
+    body: "Старі покриття, іржу й оливу знімаємо абразивом до чистого світлого металу, готового до зчеплення.",
   },
   {
     step: "02",
-    title: "Prep & mask",
-    body: "Parts are chemically treated, phosphate-rinsed, and precision-masked so threads and mating surfaces stay clean.",
+    title: "Підготовка та маскування",
+    body: "Деталі проходять хімічну обробку, фосфатне промивання й точне маскування, щоб різьба та стикові поверхні лишалися чистими.",
   },
   {
     step: "03",
-    title: "Electrostatic coat",
-    body: "Charged powder is sprayed onto the grounded part, wrapping every edge and recess in an even, uniform film.",
+    title: "Електростатичне покриття",
+    body: "Заряджений порошок напилюється на заземлену деталь, огортаючи кожен край і заглиблення рівною однорідною плівкою.",
   },
   {
     step: "04",
-    title: "Oven cure",
-    body: "The coating flows and cross-links at 400°F, fusing into a single continuous shell that's ready to handle in hours.",
+    title: "Запікання в печі",
+    body: "Покриття розтікається й полімеризується за 200°C, сплавляючись у суцільну оболонку, готову до використання за кілька годин.",
   },
 ]
 
@@ -29,10 +29,10 @@ export function Process() {
       <div className="mx-auto max-w-6xl px-5">
         <Reveal>
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-            The process
+            Процес
           </p>
           <h2 className="mt-3 max-w-2xl text-4xl font-extrabold tracking-tight text-balance text-foreground sm:text-5xl">
-            Four stages from bare metal to bulletproof finish.
+            Чотири етапи — від голого металу до невразливого покриття.
           </h2>
         </Reveal>
 

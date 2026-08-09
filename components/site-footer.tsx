@@ -13,30 +13,30 @@ export function SiteFooter() {
               </span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Precision powder coating for automotive, architectural, and
-              industrial metal. Coated to last a lifetime.
+              Прецизійне порошкове фарбування для автомобільного, архітектурного
+              та промислового металу. Покриття на все життя.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-3">
             <FooterCol
-              title="Services"
-              links={["Automotive", "Architectural", "Industrial", "Restoration"]}
+              title="Послуги"
+              links={["Авто", "Архітектура", "Промисловість", "Реставрація"]}
             />
             <FooterCol
-              title="Shop"
-              links={["Finishes", "Process", "Turnaround", "Warranty"]}
+              title="Майстерня"
+              links={["Покриття", "Процес", "Терміни", "Гарантія"]}
             />
             <FooterCol
-              title="Visit"
-              links={["1420 Foundry Rd", "Mon–Fri, 8–5", "(555) 019-4420", "hello@chromacoat.co"]}
+              title="Контакти"
+              links={["вул. Ливарна, 1420", "Пн–Пт, 8–17", "(044) 019-4420", "hello@chromacoat.co"]}
             />
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 text-sm text-muted-foreground sm:flex-row">
           <p>© {new Date().getFullYear()} Chroma Coat Finishing Co.</p>
-          <p>Blast · Coat · Cure</p>
+          <p>Піскострум · Покриття · Запікання</p>
         </div>
       </div>
     </footer>

@@ -4,26 +4,26 @@ import { Reveal } from "@/components/reveal"
 const SERVICES = [
   {
     icon: Car,
-    title: "Automotive",
-    body: "Wheels, calipers, frames, and trim finished to show quality with heat-stable coatings that survive the road.",
+    title: "Авто",
+    body: "Диски, супорти, рами й фурнітура з виставковою якістю та термостійкими покриттями, що витримують дорогу.",
     accent: "var(--paint-1)",
   },
   {
     icon: Building2,
-    title: "Architectural",
-    body: "Railings, facades, and fixtures with AAMA-rated coatings engineered for decades of UV and weather exposure.",
+    title: "Архітектура",
+    body: "Поручні, фасади та елементи з покриттями класу AAMA, розрахованими на десятиліття УФ та погодних впливів.",
     accent: "var(--paint-5)",
   },
   {
     icon: Factory,
-    title: "Industrial",
-    body: "High-volume production runs on equipment, brackets, and enclosures with consistent film build every time.",
+    title: "Промисловість",
+    body: "Великосерійне фарбування обладнання, кронштейнів і корпусів зі стабільною товщиною плівки щоразу.",
     accent: "var(--paint-4)",
   },
   {
     icon: Bike,
-    title: "Restoration",
-    body: "Bringing vintage frames, patio sets, and heirloom metal back to life — stripped, repaired, and recolored.",
+    title: "Реставрація",
+    body: "Повертаємо до життя вінтажні рами, садові меблі та родинний метал — очищення, ремонт і нове фарбування.",
     accent: "var(--paint-6)",
   },
 ]
@@ -33,10 +33,10 @@ export function Services() {
     <section id="services" className="relative mx-auto max-w-6xl px-5 py-24">
       <Reveal>
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-          What we coat
+          Що ми фарбуємо
         </p>
         <h2 className="mt-3 max-w-2xl text-4xl font-extrabold tracking-tight text-balance text-foreground sm:text-5xl">
-          One shop, every kind of metal.
+          Одна майстерня — будь-який метал.
         </h2>
       </Reveal>
 

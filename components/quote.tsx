@@ -5,9 +5,9 @@ import { Check, ShieldCheck, Clock, Palette } from "lucide-react"
 import { Reveal } from "@/components/reveal"
 
 const PERKS = [
-  { icon: ShieldCheck, label: "5-year finish warranty" },
-  { icon: Clock, label: "72-hour standard turnaround" },
-  { icon: Palette, label: "Free custom color matching" },
+  { icon: ShieldCheck, label: "5 років гарантії на покриття" },
+  { icon: Clock, label: "Стандартний термін — 72 години" },
+  { icon: Palette, label: "Безкоштовний підбір кольору" },
 ]
 
 export function Quote() {
@@ -20,12 +20,11 @@ export function Quote() {
           <div className="grid gap-10 p-8 sm:p-12 lg:grid-cols-2">
             <div>
               <h2 className="text-4xl font-extrabold tracking-tight text-balance sm:text-5xl">
-                Get a quote in one day.
+                Отримайте кошторис за один день.
               </h2>
               <p className="mt-4 max-w-md leading-relaxed text-primary-foreground/70">
-                Tell us what you&apos;re coating and the color you want. We&apos;ll
-                come back with pricing and a turnaround window — usually the same
-                business day.
+                Розкажіть, що фарбуємо й у який колір. Ми надішлемо ціну та
+                орієнтовний термін виконання — зазвичай того ж робочого дня.
               </p>
 
               <ul className="mt-8 space-y-3">
@@ -48,9 +47,10 @@ export function Quote() {
                   <span className="flex size-14 items-center justify-center rounded-full bg-paint-4/15 text-paint-4">
                     <Check className="size-7" />
                   </span>
-                  <h3 className="mt-5 text-xl font-bold">Request received</h3>
+                  <h3 className="mt-5 text-xl font-bold">Заявку отримано</h3>
                   <p className="mt-2 max-w-xs text-sm text-muted-foreground">
-                    Thanks — our shop will reach out with your quote shortly.
+                    Дякуємо — наша майстерня незабаром зв&apos;яжеться з вами
+                    щодо кошторису.
                   </p>
                 </div>
               ) : (
@@ -62,31 +62,31 @@ export function Quote() {
                   className="space-y-4"
                 >
                   <div className="grid gap-4 sm:grid-cols-2">
-                    <Field label="Name" name="name" placeholder="Jordan Lee" />
+                    <Field label="Ім'я" name="name" placeholder="Ірина Коваль" />
                     <Field
-                      label="Email"
+                      label="Пошта"
                       name="email"
                       type="email"
                       placeholder="you@email.com"
                     />
                   </div>
                   <Field
-                    label="What are we coating?"
+                    label="Що фарбуємо?"
                     name="part"
-                    placeholder="e.g. 4 alloy wheels + calipers"
+                    placeholder="напр. 4 литі диски + супорти"
                   />
                   <div>
                     <label
                       htmlFor="details"
                       className="mb-1.5 block text-sm font-medium"
                     >
-                      Color &amp; finish
+                      Колір і фактура
                     </label>
                     <textarea
                       id="details"
                       name="details"
                       rows={3}
-                      placeholder="Gloss signal red, satin clear coat…"
+                      placeholder="Глянцевий сигнальний червоний, сатиновий лак…"
                       className="w-full resize-none rounded-lg border border-input bg-card px-3.5 py-2.5 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-ring focus:ring-3 focus:ring-ring/30"
                     />
                   </div>
@@ -94,7 +94,7 @@ export function Quote() {
                     type="submit"
                     className="mt-1 inline-flex h-11 w-full items-center justify-center rounded-full bg-accent text-base font-semibold text-accent-foreground transition-transform hover:-translate-y-0.5"
                   >
-                    Request my quote
+                    Надіслати заявку
                   </button>
                 </form>
               )}

@@ -15,9 +15,9 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Chroma Coat — Premium Powder Coating for Metal',
+  title: 'Chroma Coat — Преміальне порошкове фарбування металу',
   description:
-    'Durable, high-gloss powder coating for automotive, architectural, and industrial metal. Thousands of colors and finishes, oven-cured to last.',
+    'Довговічне глянцеве порошкове фарбування для автомобільного, архітектурного та промислового металу. Тисячі кольорів і фактур, запечені в печі назавжди.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -49,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${archivo.variable} ${inter.variable} bg-background`}>
+    <html lang="uk" className={`${archivo.variable} ${inter.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}

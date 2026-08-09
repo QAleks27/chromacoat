@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react"
 
 const NAV = [
-  { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
-  { label: "Finishes", href: "#finishes" },
-  { label: "Work", href: "#work" },
+  { label: "Послуги", href: "#services" },
+  { label: "Процес", href: "#process" },
+  { label: "Покриття", href: "#finishes" },
+  { label: "Роботи", href: "#work" },
 ]
 
 export function SiteHeader() {
@@ -53,7 +53,7 @@ export function SiteHeader() {
           href="#quote"
           className="inline-flex h-9 items-center justify-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground shadow-sm transition-transform hover:-translate-y-0.5"
         >
-          Get a quote
+          Отримати кошторис
         </a>
       </div>
     </header>
